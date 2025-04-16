@@ -1,0 +1,29 @@
+.hero-section {
+    background: url('https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center/cover no-repeat;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem; /* You can adjust this to 4rem if needed */
+    font-weight: bold;
+  }
+  
+  .hero-content .lead {
+    font-size: 1.75rem; /* Default is ~1.25rem for .lead */
+  }
+  
